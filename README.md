@@ -30,20 +30,18 @@ Definition:
   newPacket - New packet flag
   irPacket - Packet received
   motorContro(int left, int right) - controls what the motor does.
-  
-
-
 
 #####Main:
 
-![alt text](https://raw.githubusercontent.com/vipersfly23/Lab2_Her_Decrypt/3fd31b067e91324bc0ba4489e32ce79b90e03e66/Main.GIF "Main Code")
+![alt text](https://raw.githubusercontent.com/vipersfly23/Lab6_Robot/master/main.GIF "Main Code")
 
 The point of the main is intialize the MSP430 and to wait and listen for buttons being pressed. once a button is pressed, that data packet is analyzed and competleted as required.
 
 #####A-Functionality [COMPLETED]
 
-![alt text](https://raw.githubusercontent.com/vipersfly23/Lab2_Her_Decrypt/master/dMessage.GIF "decryptMessage")
-![alt text](https://raw.githubusercontent.com/vipersfly23/Lab2_Her_Decrypt/master/dChar.GIF "decryptCharacter")
+![alt text](https://raw.githubusercontent.com/vipersfly23/Lab6_Robot/master/AFunctionality.GIF "A functionality Coding")
+*Reference main*
+
 This robot is controlled by an infared remot control. As the code shows, it uses the internal timer of the MSP430 and an infared sensor to analyze the packet received from the remote and to determine which control was pressed. 
 
 
@@ -53,7 +51,7 @@ This robot is controlled by an infared remot control. As the code shows, it uses
   Bewlow is the preliminary design for the lab and how the motor is implemented using a pulse width modulation.
   
   Preliminary Design:
-  ![alt text](https://raw.githubusercontent.com/vipersfly23/Lab2_Her_Decrypt/master/FlowChart.gif "Flow Chart")
+  ![alt text](https://raw.githubusercontent.com/vipersfly23/Lab6_Robot/master/Prelim.jpg "Flow Chart")
   
     My methodology was dividing and conquered. I broke the lab into two simple peices. 1) controlling the motor. I didn't
     worry about controlling the robot, but focused strictly on getting the motors to work. After getting the motor to work, I
